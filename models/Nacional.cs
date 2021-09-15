@@ -9,5 +9,10 @@ namespace models
         }
 
         public Nacional(string cor,string  marca, string modelo, DateTime anoFabricacao) : base( cor, marca, modelo, anoFabricacao ) { }
+
+        public string melhorCorredor() 
+        {
+            return "Melhor corredor do Brasil com esse carro foi Ayrton Senna";
+        }
     }
 }

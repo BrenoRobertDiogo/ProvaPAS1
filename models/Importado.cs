@@ -14,5 +14,11 @@ namespace models
         public Importado(string paisProjetado,string cor,string  marca, string modelo, DateTime anoFabricacao) : base( cor, marca, modelo, anoFabricacao ) {
             this.PaisProjetado = paisProjetado;
         }
+
+        public string melhorCorredor(string qualPaisFoiMelhorComEsseCarro) 
+        {
+            return $"Melhor corredor do {qualPaisFoiMelhorComEsseCarro} com esse carro foi 'NOME QUE VEM DE ALGUMA API'";
+        }
+
     }
 }

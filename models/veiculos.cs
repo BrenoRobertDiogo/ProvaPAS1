@@ -27,6 +27,11 @@ namespace models
             this.Modelo = Modelo;
             this.AnoFabricacao = AnoFabricacao;
         }
+
+        public string melhorCorredor() 
+        {
+            return "";
+        }
         
     }
 }
