@@ -16,8 +16,8 @@ namespace Prova1
             );
             var imp = new Importado(
                 "Italia",
-                "Branco",// string Cor
-                "Azuleijo",// string  Marca
+                "Pretão",// string Cor
+                "Maneira",// string  Marca
                 "Forza horizon",// string Modelo
                 new DateTime(2015, 12, 25)// DateTime AnoFabricacao
             );
